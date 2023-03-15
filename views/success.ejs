@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <title>Twilio SMS</title>
+</head>
+<body>
+  <h1>Message sent!</h1>
+  <p><strong>Message SID:</strong> <%= message.sid %></p>
+  <p><strong>To:</strong> <%= message.to %></p>
+  <p><strong>From:</strong> <%= message.from %></p>
+  <p><strong>Body:</strong> <%= message.body %></p>
+  <p><a href="/">Send another message</a></p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <title>Twilio SMS</title>
+</head>
+<body>
+  <h1>Twilio SMS</h1>
+  <form action="/send-sms" method="POST">
+    <label for="to">To:</label>
+    <input type="text" name="to" id="to" required><br>
+    <label for="message">Message:</label>
+    <textarea name="message" id="message" required></textarea><br>
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
