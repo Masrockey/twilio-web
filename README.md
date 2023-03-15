@@ -7,10 +7,11 @@ then use this command to install dependencies
 $ npm install
 
 dont forget make .env file
-<code>
+<br>
+<quote>
 TWILIO_ACCOUNT_SID=your_account_sid
 <br>
 TWILIO_AUTH_TOKEN=your_auth_token
 <br>
 TWILIO_NUMBER=your_twilio_active_number
-</code>
+</quote>
